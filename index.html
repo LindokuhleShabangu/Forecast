@@ -7,26 +7,32 @@
     <title>Weather-App</title>
   </head>
   <body>
-    <div  class="weather-app"
-    <h1>Welcome to my App</h1>
+    <div  class="weather-app">
+ 
     
     <header>
-        <form>  
-            <input type="search" placeholder="Enter your city..." required>
-        <input type="submit" value="Search">
+        <form class="search-form">  
+            <input type="search" placeholder="Enter your city..." required class="search-input">
+        <input type="submit" value="Search" class="search-button">
         </form>
 
     </header>
 
     <main>
-        <div>
-            <h1>Johannesburg</h1>
-            <p>Thursday 11:42, mist<br>
-Humidity: 95%, Wind: 5.14km/h</p>
+        <div class="weather-data">
+            
+        <div >
+            <h1 class="weather-city">Johannesburg</h1>
+            <p class="weather-details">Thursday 11:42, mist<br/>
+Humidity: <span style="color:#f65282">95%</span>, Wind: <span style="color:#f65282">5.14km/h</span></p>
         </div>
-        <div>
-            🌤️12&degC
+        <div class="weather-temperature-details">
+            <div class="weather-icon">🌤️</div>
+          <div class="weather-deatils" >12&deg</div> 
+          <div class="weather-unit">C</div>  
         </div>
+        </div>
+        
     </main>
     <footer>
     This project was coded by
