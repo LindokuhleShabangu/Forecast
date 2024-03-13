@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src\style.css">
+    <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
     <title>Weather-App</title>
   </head>
   <body>
@@ -11,8 +12,8 @@
  
     
     <header>
-        <form class="search-form">  
-            <input type="search" placeholder="Enter your city..." required class="search-input">
+        <form class="search-form" id="search-form">  
+            <input type="search" placeholder="Enter your city..." required class="search-input" id="city-input">
         <input type="submit" value="Search" class="search-button">
         </form>
 
@@ -22,7 +23,7 @@
         <div class="weather-data">
             
         <div >
-            <h1 class="weather-city">Johannesburg</h1>
+            <h1 class="weather-city" id="city">Johannesburg</h1>
             <p class="weather-details">Thursday 11:42, mist<br/>
 Humidity: <span style="color:#f65282">95%</span>, Wind: <span style="color:#f65282">5.14km/h</span></p>
         </div>
@@ -42,5 +43,6 @@ Humidity: <span style="color:#f65282">95%</span>, Wind: <span style="color:#f652
       the website is hosted on
       <a href="https://lindokuhle-weather-app.netlify.app/" target="_blank">Netlify</a>
     </footer>
+    <script src="src/app.js"></script>
   </body>
 </html>
