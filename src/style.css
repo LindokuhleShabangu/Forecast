@@ -51,20 +51,35 @@ header {
 .weather-temperature-details {
   display: flex;
 }
-.weather-temperature{
-    font-size: 88px;
-    font-weight: bold;
-    margin-left: 10px;
+.weather-temperature {
+  font-size: 88px;
+  font-weight: bold;
+  line-height: 88px;
+  margin-left: 10px;
 }
 .weather-icon {
-  font-size: 45px;
-  margin-top: 22px;
+  width: 88px;
+  height: 88px;
 }
-.weather-unit{
-    margin-top: 18px;
-    font-size: 28px;
+.weather-unit {
+  margin-top: 6px;
+  font-size: 28px;
 }
-
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+  color:#000;
+}
+.weather-forecast-date{
+  font-size:16px;
+  opacity: 0.5;
+}
+.weather-forecast-temperature-min{
+opacity: 0.5;
+}
+.weather-forecast.temperature{
+font-size:13px;
+}
 footer {
   border-top: 1px solid #f9f7fe;
   padding: 30px 0 0 0;
