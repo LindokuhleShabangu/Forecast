@@ -46,7 +46,7 @@ header {
   font-size: 16px;
   color: rgb(39, 33, 66, 0.4);
   line-height: 20px;
-  font-weight: 500;
+  font-weight: bold;
 }
 .weather-temperature-details {
   display: flex;
@@ -94,7 +94,7 @@ header {
 }
 .weather-forecast-temperature {
   padding: 0 10px;
-  font-size: 13px;
+  font-size: 16px;
 }
 footer {
   border-top: 1px solid #f9f7fe;
